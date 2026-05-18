@@ -86,6 +86,7 @@ h6 {
     --gray: #48555b;
     --blue: #00a4e5;
     --border: #e6e6e6;
+    --recall: #171819;
 }
 
 .btn {
@@ -403,15 +404,50 @@ h6 {
 
 .prom__tittle {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 30px;
-line-height: 120%;
-letter-spacing: 0.01em;
-text-align: center;
-color: var(--gray);
-margin-bottom: 35.5px;}
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 35.5px;
+}
 
 
-.prom__btn {}
 
-.btn {}
+.recall {
+    background-color: var(--recall);
+}
+
+.recall__inner {
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 128px 0 128px;
+    gap: 86px;
+    min-height: 100px;
+
+}
+
+.recall__tittle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+}
+
+.recall__form {
+    display: flex;
+    /* Можно настроить нужную ширину */
+}
+
+.text__area {
+    border: 1px solid var(--gray);
+    width: 250px;
+    height: 40px;
+    padding-left: 16px;
+
+}
+
